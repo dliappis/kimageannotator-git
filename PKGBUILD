@@ -42,6 +42,6 @@ package(){
   make DESTDIR="$pkgdir" install
   cd "$pkgdir"/usr
   install -dm755 bin
-  install -Dm544 "$srcdir/kImageAnnotator/build/example/kImageAnnotator-example" bin/kImageAnnotator-example
+  install -Dm544 "$srcdir/kimageannotator/build/example/kImageAnnotator-example" bin/kImageAnnotator-example
 }
 
